@@ -5,6 +5,7 @@ fn main() {
     strings();
 }
 
+// simple loops in rust 0..10 the loop will run from 0 to 9 .
 fn simple_loops() {
     for i in 0..10 {
         print!("{} ", i);
@@ -12,6 +13,7 @@ fn simple_loops() {
     println!();
 }
 
+//while loop example 
 fn while_loop() {
     let mut counter = 0;
     while counter < 5 {
@@ -20,6 +22,7 @@ fn while_loop() {
     }
 }
 
+//breaking in loops on some conditions 
 fn infinite_loops(){
     let mut attempts = 0 ; 
     loop {
@@ -38,6 +41,7 @@ fn strings(){
     println!("First name:{}",get_first_name(str));
 }
 
+//loops in strings 
 fn get_first_name(str:String) -> String{
     let mut first_name = String::from("");
     for c in str.chars(){
