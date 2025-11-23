@@ -1,6 +1,7 @@
 mod conditionals;
 mod variables; 
 mod loops;
+mod functions;
 fn main() {
     //println!("Hello, world!");
 
