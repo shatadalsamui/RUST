@@ -12,3 +12,5 @@ fn sum(a: i32, b: i32) -> i32 { // 3. new stack frame 2, a and b allocated in st
     let c = a + b; // 4. c is allocated in stack frame 2
     return c; // 5. returns c, stack frame 2 is cleaned up
 }
+
+

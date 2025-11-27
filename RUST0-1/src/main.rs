@@ -5,6 +5,7 @@ mod functions;
 mod mutability;
 mod mem_allocation;
 mod mem_allocation2;
+mod scope;
 fn main() {
     //println!("Hello, world!");
 
