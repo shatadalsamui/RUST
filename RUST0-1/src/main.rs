@@ -3,6 +3,7 @@ mod variables;
 mod loops;
 mod functions;
 mod mutability;
+mod mem_allocation;
 fn main() {
     //println!("Hello, world!");
 
