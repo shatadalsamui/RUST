@@ -6,6 +6,9 @@ mod mutability;
 mod mem_allocation;
 mod mem_allocation2;
 mod scope;
+mod ownership;
+mod ownership2;
+mod ownership3;
 fn main() {
     //println!("Hello, world!");
 
