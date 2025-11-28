@@ -9,6 +9,7 @@ mod scope;
 mod ownership;
 mod ownership2;
 mod ownership3;
+mod clone;
 fn main() {
     //println!("Hello, world!");
 
