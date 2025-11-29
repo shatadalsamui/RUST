@@ -10,6 +10,8 @@ mod ownership;
 mod ownership2;
 mod ownership3;
 mod clone;
+mod references;
+mod borrowing;
 fn main() {
     //println!("Hello, world!");
 
