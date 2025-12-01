@@ -13,6 +13,8 @@ mod clone;
 mod references;
 mod borrowing;
 mod mut_references;
+mod structs;
+mod impl_structs;
 fn main() {
     //println!("Hello, world!");
 

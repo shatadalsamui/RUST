@@ -1,8 +1,8 @@
-struct User {
-    active : bool , 
-    username : String , 
-    email : String , 
-    signin_count : u64
+struct User {//same stack frame 
+    active : bool , // stack 8 bits 
+    username : String , // stack -> heap 
+    email : String , //stack -> heap 
+    signin_count : u64 // stack 32 bits 
 }
 
 fn main(){
