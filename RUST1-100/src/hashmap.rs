@@ -23,4 +23,5 @@ fn main() {
     //clearing the whole hashmap 
     users.clear();
     println!("{:?}", users);
+    
 }
