@@ -18,10 +18,12 @@ fn main() {
 
     //removing an element using it key 
     users.remove("shatadal2");
+
     println!("{:?}", users);
 
     //clearing the whole hashmap 
     users.clear();
-    println!("{:?}", users);
     
+    println!("{:?}", users);
+
 }

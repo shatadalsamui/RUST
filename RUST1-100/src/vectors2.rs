@@ -14,6 +14,7 @@ fn main() {
 }
 
 fn even_filter(vec: Vec<i32>) -> Vec<i32> {
+    
     let mut even_vec = Vec::<i32>::new();
 
     for value in vec {
