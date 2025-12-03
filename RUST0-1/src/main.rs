@@ -15,6 +15,9 @@ mod borrowing;
 mod mut_references;
 mod structs;
 mod impl_structs;
+mod enums;
+mod enums2;
+mod pattern_matching;
 fn main() {
     //println!("Hello, world!");
 
