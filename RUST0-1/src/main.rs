@@ -18,6 +18,7 @@ mod impl_structs;
 mod enums;
 mod enums2;
 mod pattern_matching;
+mod structs2;
 fn main() {
     //println!("Hello, world!");
 
