@@ -9,6 +9,8 @@ mod iterators2;
 mod iterators3;
 mod iterators4;
 mod iterators5;
+mod strings;
+mod strings2;
 fn main() {
     println!("Hello, world!");
 }
