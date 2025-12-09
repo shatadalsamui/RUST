@@ -11,6 +11,8 @@ mod iterators4;
 mod iterators5;
 mod strings;
 mod strings2;
+mod slices;
+mod generics;
 fn main() {
     println!("Hello, world!");
 }

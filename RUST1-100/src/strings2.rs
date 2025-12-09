@@ -1,5 +1,5 @@
 fn main() {
-    //reaplcing in string 
+    //replacing in string 
     let mut name = String::from("Shatadal");
     name.push_str(" Samui");
     println!("{}", name);
