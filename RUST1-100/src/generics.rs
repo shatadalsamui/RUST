@@ -11,6 +11,7 @@ fn main() {
 // The syntax 'T: std::cmp::PartialOrd' is a trait bound, which restricts T to types that can be compared using >, <, etc.
 // This is necessary because we use 'a > b' inside the function, so Rust must know that T supports these comparison operators.
 // We define this function above 'main' so it can be used anywhere below, including in 'main'.
+
 fn largest<T: std::cmp::PartialOrd>(a: T, b: T) -> T {
     if a > b {
         return a;

@@ -13,6 +13,7 @@ mod strings;
 mod strings2;
 mod slices;
 mod generics;
+mod traits;
 fn main() {
     println!("Hello, world!");
 }
