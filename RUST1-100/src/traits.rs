@@ -3,7 +3,7 @@ pub trait Summary {
     fn summarize(&self) -> String;
 }
 
-// Defines a trait as a blueprint for summarization.
+// Represents a user with a name and age.
 struct User { 
     name: String,
     age: u32,
