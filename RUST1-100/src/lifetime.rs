@@ -11,7 +11,7 @@ fn main() {
     println!("{}", ans); 
 }
 
-fn longest(a: &str, b: &str) -> &str { //error 
+fn longest(a: &str, b: &str) -> &str { // error 
     if a.len() > b.len() {
         return a;
     } else {
