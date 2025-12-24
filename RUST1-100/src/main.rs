@@ -14,6 +14,7 @@ mod strings2;
 mod slices;
 mod generics;
 mod traits;
+mod lifetime;
 fn main() {
     println!("Hello, world!");
 }
